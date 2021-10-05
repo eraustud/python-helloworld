@@ -1,2 +1,4 @@
 # To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
-flask==2.0.1
+flask==1.1.1
+werkzeug=0.16.1
+pytest=4.6.11
